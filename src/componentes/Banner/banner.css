@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+}
+
+.banner {
+  background-color: rgb(144, 185, 233);
+
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.texto_banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.texto_banner h1 {
+  color: black;
+}

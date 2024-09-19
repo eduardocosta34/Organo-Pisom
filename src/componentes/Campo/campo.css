@@ -1,0 +1,29 @@
+.campo {
+  margin: 5% 10%;
+}
+
+.campo label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.campo input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #e6e6e6 solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+}
+
+.campo-color input {
+  height: 40px;
+  padding: 5px 24px;
+}
+
+.campo input:focus {
+  border-bottom: 2px #3342f3 solid;
+  outline: none;
+}
